@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logged in......</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadFun();">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Store Your Info </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Welcome <span id="nameId"></span></a>
+            </li>
+          </ul>
+          <div class="container">
+              <button onclick="fun()" type="submit" class="btn btn-info">Add New Data</button>
+              <button onclick="empty()" type="submit" class=" mx-2 btn btn-danger">Clear Data</button>
+         </div>
+          <form class="form-inline my-2 my-lg-0">
+            <button style="display: none;" type="submit" id="myBtn" class="btn btn-info">Submit</button>
+            <button onclick="small()" href="index.html" class="btn btn-outline-primary my-2 my-sm-0 myc" type="submit"><a class="lg" href="./index.html">Log-Out</a></button>
+          </form>
+        </div>
+      </nav>
+      <div class="container">
+      <div class="time-con">
+        <div class="tim" id="time" onload="timeFun()">00:00:00</div>
+      </div>
+        <table id="myTable" class="tbl" style="width: 100%;">
+            <tr>
+                <th>Full Name : </th> 
+                <th> Age : </th>
+                <th>Gender :</th>
+                <th>Phone Number :</th>
+                <th>Modifications :</th>  
+            </tr> 
+        </table>
+        </div>
+</body>
+<script src="app.js"></script>
+<script src="index.js"></script>
+</html>

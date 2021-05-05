@@ -1,0 +1,54 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.my-2{
+    color: white;
+    text-decoration: none;
+}
+a.lg{
+    color: white;
+}
+a.lg:hover{
+  text-decoration: none;
+}
+.myc{
+    position: absolute;
+    right: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  td, th {
+    border: 2px solid #63ce00;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+
+  }
+  .lll{
+    text-align: center;
+    background-color: teal;
+    height: 10vh;
+    color: white;
+  }
+
+  .tim{
+      background-color: teal;
+      color: rgb(255, 255, 255);
+      font-size: large;
+      text-align: center;
+
+  }
+  .editcss{
+    /* color: rgb(217, 255, 0); */
+    cursor: pointer;
+  }
+  .delcss{
+    color: blue;
+    cursor: pointer;
+  }
